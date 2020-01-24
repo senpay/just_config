@@ -17,7 +17,7 @@ setup(
     version=version.VERSION,
     author='Alexander Pushkarev',
     author_email='alexspush@gmail.com',
-    description='Minimalistic library to resolve configuration for a python program',
+    description='Minimalistic library to handle configuration for the application',
     license='MIT',
     url='http://packages.python.org/just_config',
     packages=['just_config'],
