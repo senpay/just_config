@@ -19,5 +19,5 @@ As for now, it will look for the configuration value in the following order:
 test=value
 ```
 
-![](https://img.shields.io/pypi/dm/pr-analyzer.svg)
+![](https://img.shields.io/pypi/dm/just-config.svg)
 
