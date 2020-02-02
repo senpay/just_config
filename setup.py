@@ -13,7 +13,7 @@ def read(fname):
 
 
 setup(
-    name='just_config',
+    name='just-config',
     version=version.VERSION,
     author='Alexander Pushkarev',
     author_email='alexspush@gmail.com',
@@ -21,5 +21,6 @@ setup(
     license='MIT',
     url='http://packages.python.org/just_config',
     packages=['just_config'],
-    long_description=read('README.MD')
+    long_description=read('README.md'),
+    long_description_content_type='text/markdown'
 )
