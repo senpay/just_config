@@ -19,6 +19,9 @@ class Configuration:
             return self._local_configuration_file()['DEFAULT'][key]
         elif self._home_dir_configuration_file() and self._home_dir_configuration_file()['DEFAULT'].get(key, None):
             return self._home_dir_configuration_file()['DEFAULT'][key]
+        
+    def get(self, key: str, default=None) -> str:
+        return self[key] or default
 
     def _local_configuration_file(self) -> ConfigParser:
         if self._cfg_local_parser:
